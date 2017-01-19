@@ -19,9 +19,17 @@ namespace Teht08
             Console.WriteLine("Anna luku > ");
             luku3 = int.Parse(Console.ReadLine());
 
-            for (int i=0; i == luku1; i++)
+            if (luku1 > luku2 && luku1 > luku3)
             {
-
+                Console.WriteLine("Suurin luku on " + luku1);
+            }
+            else if (luku2 > luku1 && luku2 > luku3)
+            {
+                Console.WriteLine("Suurin luku on " + luku2);
+            }
+            else if ( luku3 > luku1 && luku3 >luku2)
+            {
+                Console.WriteLine("Suurin luku on " + luku3);
             }
         }
     }
